@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: linear-gradient(90deg, rgba(65, 128, 234, 0.05) 0%, rgba(210, 67, 54, 0.05) 36.24%, rgba(234, 173, 2, 0.05) 64.5%, rgba(16, 151, 86, 0.05) 100%), #FFFFFF;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items li {
+    padding: 0 1rem;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-size: 24px;
+    color: #565656;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.logo {
+    margin-left: 142px;
+}
+
+.btn {
+    /* We can add the spin effect later-using default react-app */
+    margin-right: 142px;
+}
+
+
+
+
+.heading li a:hover,
+.heading li a.active {
+    color: rgb(15, 15, 238);
+}
