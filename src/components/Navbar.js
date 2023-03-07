@@ -1,7 +1,8 @@
 import React from 'react'
 import './Navbar.css'
-import logo from '../attributes/Logo.svg'
-import Button from '../attributes/Button.svg'
+// import logo from '/svgs/Logo.svg'
+import Button from './Button'
+
 import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
 
@@ -15,9 +16,9 @@ export default function Navbar() {
       setClick(false);
   }
   return (
-    <div className="heading">
+    <div className="navbar">
     {/* <a href="/"><h1 className='WoW'>WoW</h1></a> */}
-    <NavLink to='/'><img className='logo' src={logo} alt='WoW Logo'/> </NavLink>
+    <NavLink to='/'><img className='logo' src='/svgs/logo.svg' alt='WoW Logo'/> </NavLink>
     <div>
       <ul onClick={handleClick} className={click?"nav-items active":"nav-items"}>
         <li><a href="/">Home</a></li>
@@ -28,9 +29,7 @@ export default function Navbar() {
         <li><a href="/About">About</a></li>
       </ul>
       </div>
-      <div>
-        <NavLink to='/Events'><img className='btn' src={Button} alt="button.png"/></NavLink>
-      </div>
+      <Button/>
     </div>
     )
 }

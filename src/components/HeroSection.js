@@ -1,9 +1,9 @@
 import React from 'react'
 import './HeroSection.css'
-import leftGraphic from '../attributes/leftGraphic.svg'
-import rightGraphic from '../attributes/rightGraphic.svg'
-import Button from '../attributes/Explore.svg'
-import illustrations from '../attributes/illustrations.svg'
+// import leftGraphic from 
+// import rightGraphic from '
+// import Button from 
+// import illustrations from 
 import { NavLink } from 'react-router-dom'
 
 
@@ -17,17 +17,17 @@ export default function HeroSection() {
         </div>
         <div className="centerGraphics">
         <div className="leftGraphics">
-            <img src={leftGraphic}  alt="leftGraphics.svg"/>
+            <img src='/svgs/leftGraphic.svg'  alt="leftGraphics.svg"/>
             </div>
             <div className="btnHero">
-            <NavLink to="/"><img src={Button} alt="centerButton.svg"/></NavLink>
+            <NavLink to="/"><img src='/svgs/Explore.svg' alt="centerButton.svg"/></NavLink>
             </div>
             <div className="leftGraphics">
-            <img src={rightGraphic} alt="rightGraphics.svg"/>
+            <img src='/svgs/rightGraphic.svg' alt="rightGraphics.svg"/>
             </div>
             </div>
             <div className="bottomIllustrations">
-        <img src={illustrations} alt="extraIllustrations.svg"/>
+        <img src='/svgs/illustrations.svg' alt="extraIllustrations.svg"/>
         </div>   
     
     </div>

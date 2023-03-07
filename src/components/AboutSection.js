@@ -1,14 +1,14 @@
 import React from 'react'
-import textBox from '../attributes/aboutTextBox.svg'
+// import textBox from ''
 import './AboutSection.css'
-import illustration from '../attributes/aboutIllustrations.svg'
+// import illustration from 
 
 export default function AboutSection() {
   return (
     <>
     <div className="textBox">
     <h1 className="AboutUs">AboutUs</h1>
-      <img src={textBox} alt="textbox.svg" />
+      <img src='/svgs/aboutTextBox.svg' alt="textbox.svg" />
       <div className="actualText">
       <h1>Hola!</h1>
       <br />
@@ -30,7 +30,7 @@ export default function AboutSection() {
                
     </div>
     <div className="aboutIllustrations">
-                  <img src={illustration} alt="illustration.svg" />
+                  <img src='/svgs/aboutIllustrations.svg' alt="illustration.svg" />
                </div>
     </>
   )
