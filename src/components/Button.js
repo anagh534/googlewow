@@ -1,10 +1,10 @@
 import "./Button.css"
 
-function Button() {
+function Button(props) {
     
   return (
     <div className="button">
-        <p style={{marginRight:'17px'}}>Register Now</p> 
+        <p style={{marginRight:'17px'}}>{props.buttonName}</p> 
         <img className="arrow" src= '/svgs/arrow.svg' />
     </div>
   )
