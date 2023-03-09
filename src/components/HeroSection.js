@@ -1,5 +1,6 @@
 import React from 'react'
 import './HeroSection.css'
+import Button from './Button'
 // import leftGraphic from 
 // import rightGraphic from '
 // import Button from 
@@ -20,7 +21,7 @@ export default function HeroSection() {
             <img src='/svgs/leftGraphic.svg'  alt="leftGraphics.svg"/>
             </div>
             <div className="btnHero">
-            <NavLink to="/"><img src='/svgs/Explore.svg' alt="centerButton.svg"/></NavLink>
+            <Button buttonName="Explore"/>
             </div>
             <div className="leftGraphics">
             <img src='/svgs/rightGraphic.svg' alt="rightGraphics.svg"/>

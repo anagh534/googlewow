@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <div className="navbar">
     {/* <a href="/"><h1 className='WoW'>WoW</h1></a> */}
-    <NavLink to='/'><img className='logo' src='/svgs/logo.svg' alt='WoW Logo'/> </NavLink>
+    <NavLink to='/'><img className='logo' src='/svgs/Logo.svg' alt='WoW Logo'/> </NavLink>
     <div>
       <ul onClick={handleClick} className={click?"nav-items active":"nav-items"}>
         <li><a href="/">Home</a></li>
@@ -29,7 +29,7 @@ export default function Navbar() {
         <li><a href="/About">About</a></li>
       </ul>
       </div>
-      <Button/>
+      <Button buttonName="Register Now"/>
     </div>
     )
 }
