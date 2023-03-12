@@ -8,9 +8,9 @@
     z-index: 10;
     display: flex;
     width: 100vw;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 0.8rem;
+    padding: 1rem;
     background: linear-gradient(90deg, rgba(65, 128, 234, 0.05) 0%, rgba(210, 67, 54, 0.05) 36.24%, rgba(234, 173, 2, 0.05) 64.5%, rgba(16, 151, 86, 0.05) 100%), #FFFFFF;
 
 }
@@ -31,7 +31,7 @@ ul {
 
 .nav-links li a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
     color: #565656;
     font-family: 'Open Sans', sans-serif;
@@ -106,7 +106,7 @@ ul {
         background-color: transparent;
         border: none;
         outline: none;
-        top: 15px;
+        top: 25px;
         right: 25px;
     }
 }

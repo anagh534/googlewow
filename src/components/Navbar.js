@@ -8,10 +8,11 @@ import { useState } from 'react'
 
 export default function Navbar() {
   const [isMobile, setIsMobile] = useState(false)
+
   return (
     <div className="navbar">
       {/* <a href="/"><h1 className='WoW'>WoW</h1></a> */}
-      <NavLink to='/'><img className='logo' src='/svgs/logo.svg' alt='WoW Logo' /> </NavLink>
+    <NavLink to='/'><img className='logo' src='/svgs/Logo.svg' alt='WoW Logo'/> </NavLink>
       <div>
         <ul className={isMobile ? "nav-links-mobile" : "nav-links"} >
           <li><a href="/">Home</a></li>
@@ -22,7 +23,9 @@ export default function Navbar() {
           <li><a href="/ContactUs">Contact us</a></li>
         </ul>
       </div>
+      <div className="btn">
       <Button buttonName="Register Now"/>
+      </div>
       <button className='mobile-menu-icon'>
         {isMobile ? (<i className="fas fa-times" onClick={() => setIsMobile(false)}></i>) : (<i className="fas fa-bars" onClick={() => setIsMobile(true)}></i>)}
       </button>
