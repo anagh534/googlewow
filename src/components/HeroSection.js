@@ -5,7 +5,6 @@ import Button from './Button'
 // import rightGraphic from '
 // import Button from 
 // import illustrations from 
-import { NavLink } from 'react-router-dom'
 
 
 export default function HeroSection() {
