@@ -1,10 +1,10 @@
 import React from 'react'
 import './HeroSection.css'
+import Button from './Button'
 // import leftGraphic from 
 // import rightGraphic from '
 // import Button from 
 // import illustrations from 
-import { NavLink } from 'react-router-dom'
 
 
 export default function HeroSection() {
@@ -19,7 +19,13 @@ export default function HeroSection() {
         <div className="leftGraphics">
             <img src='/svgs/leftGraphic.svg'  alt="leftGraphics.svg"/>
             </div>
+<<<<<<< HEAD
             
+=======
+            <div className="btnHero">
+            <Button buttonName="Explore"/>
+            </div>
+>>>>>>> a710ba1f12c9b87c2ea4fd51f46c82a68c8445c5
             <div className="leftGraphics">
             <img src='/svgs/rightGraphic.svg' alt="rightGraphics.svg"/>
             </div>
