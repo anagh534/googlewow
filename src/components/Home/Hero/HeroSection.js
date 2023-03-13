@@ -1,6 +1,6 @@
 import React from 'react'
 import './HeroSection.css'
-import Button from './Button'
+import Button from '../../Shared/Custombutton/Button'
 // import leftGraphic from 
 // import rightGraphic from '
 // import Button from 
