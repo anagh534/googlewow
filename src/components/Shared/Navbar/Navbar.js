@@ -1,7 +1,8 @@
 import React from 'react'
 import './Navbar.css'
 // import logo from '/svgs/Logo.svg'
-import Button from './Button'
+import Custombutton from "../../Shared/Custombutton/Custombutton";
+
 
 import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
@@ -23,8 +24,8 @@ export default function Navbar() {
           <li><a href="/ContactUs">Contact us</a></li>
         </ul>
       </div>
-      <div className="btn">
-      <Button buttonName="Register Now"/>
+            <div className="btn">
+          <Custombutton buttonName="Register Now" />
       </div>
       <button className='mobile-menu-icon'>
         {isMobile ? (<i className="fas fa-times" onClick={() => setIsMobile(false)}></i>) : (<i className="fas fa-bars" onClick={() => setIsMobile(true)}></i>)}

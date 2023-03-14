@@ -6,10 +6,9 @@ import Navbar from '../components/Navbar'
 export default function Home() {
   return (
     <div>
-        {/* <Navbar /> */}
-        <Button/>
-        {/* <HeroSection />
-        <AboutSection /> */}
+        {<Navbar /> }
+         { <HeroSection />}
+        {<AboutSection /> } 
     </div>
   )
 }

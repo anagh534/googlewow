@@ -19,13 +19,9 @@ export default function HeroSection() {
         <div className="leftGraphics">
             <img src='/svgs/leftGraphic.svg'  alt="leftGraphics.svg"/>
             </div>
-<<<<<<< HEAD
-            
-=======
             <div className="btnHero">
             <Button buttonName="Explore"/>
             </div>
->>>>>>> a710ba1f12c9b87c2ea4fd51f46c82a68c8445c5
             <div className="leftGraphics">
             <img src='/svgs/rightGraphic.svg' alt="rightGraphics.svg"/>
             </div>
@@ -33,9 +29,6 @@ export default function HeroSection() {
             <div className="bottomIllustrations">
         <img src='/svgs/illustrations.svg' alt="extraIllustrations.svg"/>
         </div>   
-        <div className="btnHero">
-            <NavLink to="/"><img src='/svgs/Explore.svg' alt="centerButton.svg"/></NavLink>
-            </div>
     
     </div>
   )
