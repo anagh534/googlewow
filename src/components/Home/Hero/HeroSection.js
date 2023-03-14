@@ -6,6 +6,7 @@ import "./HeroSection.css";
 // import illustrations from
 import Custombutton from "../../Shared/Custombutton/Custombutton";
 
+
 export default function HeroSection() {
   return (
     <div>
