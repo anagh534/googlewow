@@ -6,8 +6,8 @@ const Childroute = () => {
   return (
     <>
       <Navbar />
-      <Outlet />
-      <Footer />
+      {/* <Outlet /> */}
+      {/* <Footer /> */}
     </>
   );
 };
