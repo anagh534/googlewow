@@ -1,13 +1,13 @@
 .about {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .container h1 {
-    margin: 20px 0 0 130px;
+    margin: 20px 0 0 120px;
     color: #109756;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 39px;
 }
 
 .left-top {
@@ -38,6 +38,7 @@
 .right-section {
     display: flex;
     flex-direction: column;
+    margin-top: 80px;
 }
 
 .right-down {
@@ -84,4 +85,18 @@
 .left-bottom img{
     object-fit: scale-down;
     margin-top: 10vh;
+}
+
+.aboutUsText
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #109756;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.left-section
+{
+    margin-top: 80px;
 }
