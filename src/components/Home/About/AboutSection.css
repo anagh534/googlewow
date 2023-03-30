@@ -1,57 +1,87 @@
-/* @import url('https://fonts.googleapis.com/css?family=Roboto'); */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
-.textBox {
-    /* position: relative; */
-    /* margin-top: 3rem; */
+.about {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    /* background-image: url(../attributes/aboutTextBox.svg); */
-    /* height: 100vh; */
 }
 
-.AboutUs {
-    /* position: absolute; */
-    width: 146px;
-    height: 44px;
-    left: 290px;
-    top: 1500px;
-
-    font-family: 'Open Sans', sans-serif;
-    /* font-weight: 600; */
-    /* font-size: 40px; */
-    /* line-height: 44px; */
-    /* identical to box height */
-
-    letter-spacing: 0.8rem
+.container h1 {
+    margin: 20px 0 0 130px;
+    color: #109756;
+    font-weight: 700;
+    font-size: 48px;
 }
 
-.actualText {
-    /* position: absolute; */
-    width: 730px;
-    height: 413px;
-    left: 10rem;
-    top: 100rem;
-    font-family: 'Open Sans', sans-serif;
+.left-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-top img {
+    object-fit: scale-down;
+    margin-top: 60px;
+    margin-right: 10px;
+}
+
+.left-top p {
+    font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    letter-spacing: 0.02em;
-
-    color: #242424;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 65px;
+    color: #4180EA;
+    width: 40rem;
 }
 
-.Paragraph {
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 0.1rem;
-    word-spacing: 0.3rem;
+.left-top p span {
+    color: #D24336;
 }
 
-.aboutIllustrations {
-    /* position: absolute; */
-    width: 316px;
-    height: 372.39px;
-    left: 75rem;
-    top: 95rem;
+.right-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-down {
+    margin-top: 10vh;
+}
+
+.right-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-top img:nth-child(1) {
+    object-fit: scale-down;
+    margin-top: 30px;
+}
+
+.right-top img:nth-child(2) {
+    object-fit: scale-down;
+    margin-top: -25px;
+}
+
+.right-down h2 {
+    color: #109756;
+    margin-bottom: 10px;
+}
+
+.right-down h2 span {
+    color: #D24336;
+}
+
+.right-down p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #4180EA;
+}
+
+.right-down p span{
+    color: #D24336;
+}
+
+.left-bottom img{
+    object-fit: scale-down;
+    margin-top: 10vh;
 }

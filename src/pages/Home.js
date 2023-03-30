@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <div className="homewrapper">
       {/* <HeroSection /> */}
-      {/* <AboutSection /> */}
-      <WorkshopCard photo={"/img/metaverse.png"} color={"#E0BAFF"} darkColor={"#470082"}/>
+      <AboutSection />
+      {/* <WorkshopCard photo={"/img/metaverse.png"} color={"#E0BAFF"} darkColor={"#470082"}/> */}
     </div>
   );
 };
