@@ -1,0 +1,55 @@
+.Road
+{
+    position: relative;
+    object-fit: cover;
+    /* right: 240px; */
+    height: 78vh;
+    width:100%;
+}
+
+/* .mainImage
+{
+    display: flex;
+    justify-content: start;
+} */
+
+.Calicut
+{
+    position: absolute;
+    width: 222px;
+    height: 218.4px;
+    left: 226px;
+    top: 1865px;
+}
+
+.Trivandrum
+{
+    position: absolute;
+width: 231px;
+height: 166.02px;
+left: 750px;
+top: 1720px;
+
+}
+
+.Kochi
+{
+    position: absolute;
+width: 114px;
+height: 126.9px;
+left: 1395px;
+top: 1500px;
+}
+
+.RegionsText
+{
+    font-family: 'Google Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 61px;
+margin-top: 2rem;
+margin-left: 2rem;
+color: #109756;
+}
+
