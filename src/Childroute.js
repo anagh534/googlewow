@@ -5,9 +5,9 @@ import Navbar from "./components/Shared/Navbar/Navbar";
 const Childroute = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
