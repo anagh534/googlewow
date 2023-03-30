@@ -9,7 +9,7 @@ const Home = () => {
     <div className="homewrapper">
       <Navbar />
       <HeroSection />
-      {/* <AboutSection /> */}
+      <AboutSection />
       <WorkshopCard photo={"/img/metaverse.png"} color={"#E0BAFF"} darkColor={"#470082"}/>
     </div>
   );

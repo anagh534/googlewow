@@ -6,51 +6,42 @@ import "./AboutSection.css";
 export default function AboutSection() {
   return (
     <>
-      <div className="textBox">
-        <h1 className="AboutUs">AboutUs</h1>
-        <img src="/svgs/aboutTextBox.svg" alt="textbox.svg" />
-        <div className="actualText">
-          <h1>Hola!</h1>
-          <br />
-          <br />
-
-          <h3 className="Paragraph">
-            Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
-            nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
-            tellus elit sed risus. Maecenas eget condimentum velit, sit amet
-            feugiat lectus. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus
-            enim egestas, ac scelerisque ante pulvinar.
-          </h3>
-
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <h1>What is GDSC Kerala</h1>
-          <br />
-          <br />
-
-          <h3 className="Paragraph">
-            Nam metus lacus, porttitor eu mauris a, blandit ultrices nibh.
-            Mauris sit amet magna non ligula vestibulum eleifend. Nulla varius
-            volutpat turpis sed lacinia. Nam eget mi in purus lobortis eleifend.
-            Sed nec ante dictum sem condimentum ullamcorper quis venenatis nisi.
-            Proin vitae facilisis nisi, ac posuere leo. Nam pulvinar blandit
-            velit, id condimentum diam faucibus at. Aliquam lacus nisi,
-            sollicitudin at nisi nec, fermentum congue felis. Quisque mauris
-            dolor, fringilla sed tincidunt ac, finibus non odio. Sed vitae
-            mauris nec ante pretium finibus. Donec nisl neque, pharetra ac elit
-            eu, faucibus aliquam ligula. Nullam dictum, tellus tincidunt tempor
-            laoreet, nibh elit sollicitudin felis, eget feugiat sapien diam nec
-            nisl.{" "}
-          </h3>
+      <div className="container">
+        <h1>About us</h1>
+        <div className="about">
+          <div className="left-section">
+            <div className="left-top">
+              <img src="./img/Group 130.png" alt="" />
+              <p>
+                We strongly believe in the transformative power of <br />
+                technology. <span>GDSC Kerala</span> community has come <br />
+                together as a platform to showcase the incredible <br />
+                potential of young student developers from Kerala.
+              </p>
+            </div>
+            <div className="left-bottom">
+              <img src="./img/Slice 1.png" alt="" />
+            </div>
+          </div>
+          <div className="right-section">
+            <div className="right-top">
+              <img src="./img/Group 14.png" alt="" />
+              <img src="./img/Wonder of Wonders.png" alt="" />
+            </div>
+            <div className="right-down">
+              <h2>How <span>GDSC</span> helps?</h2>
+              <p>
+                We are proud of how <span>GDSC</span> can enhance confidence,<br />
+                innovation, and performance among young technologists. <br />
+                For us, <span>GDSC Kerala</span> is about more than just developing <br />
+                technical skills. It's about cultivating a sense of belonging <br />
+                and community among students in Kerala, where the <br />
+                richness of our culture and the boundless potential of our <br />
+                technology sector converge.
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="aboutIllustrations">
-        <img src="/svgs/aboutIllustrations.svg" alt="illustration.svg" />
       </div>
     </>
   );
