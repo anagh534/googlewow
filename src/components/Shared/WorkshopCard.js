@@ -1,4 +1,6 @@
+import React from "react"
 import "./workshop-card.css"
+import Arrow from "../../svgs/arrow.svg"
 
 
 function WorkshopCard({photo,color,darkColor}) {
@@ -15,7 +17,7 @@ function WorkshopCard({photo,color,darkColor}) {
                 <p className="description">Unleash competitive spirit by participating in it and unleash your potential</p>
                 <div className="line-arrow">
                     <div className="line"></div>
-                    <img src="./svgs/arrow.svg" />
+                    <img src={Arrow} />
                 </div>
             </div>
             

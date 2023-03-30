@@ -1,72 +1,87 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-.toCenter {
+@font-face {
+    font-family: google-sans-regular;
+    src: url('../../../fonts/GoogleSans-Regular-v1.27.ttf');
+}
+.upper-upper-section
+{
     display: flex;
-    justify-content: center;
-    margin-top: 4rem;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 38px;
-    color: #4180EA;
-    font-family: 'Roboto';
-    letter-spacing: 0.06em;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    line-height: 20.35px;
+    letter-spacing: 0.1rem;
 }
 
-.brightColors {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    background: linear-gradient(90deg, #4180EA 0%, #D24336 40.8%, #EAAD02 76.2%, #109756 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    /* text-fill-color: transparent; */
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 40px;
-    letter-spacing: 0.06em;
-    line-height: 54px;
+.textG
+{
+    margin-left: 1rem;
+    line-height: 1.2;
 }
 
-.kerala {
-    font-weight: bolder;
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    background: linear-gradient(90deg, #4180EA 0%, #D24336 40.8%, #EAAD02 76.2%, #109756 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    /* text-fill-color: transparent; */
-    font-family: 'Roboto';
-
-    font-size: 40px;
-    letter-spacing: 0.06em;
-    line-height: 54px;
-}
-
-.centerGraphics {
+.upper-section
+{
     display: flex;
     justify-content: space-between;
 }
 
-/* .leftGraphics {
-    display: flex;
-    justify-content: flex-start;
-} */
-
-/* .rightGraphics {
-    display: flex;
-    justify-content: flex-end;
-} */
-
-.btnHero {
-    margin-top: 160px;
-    margin-right: 140px;
+.upper-section-right
+{
+    margin-top: 3rem;
+    margin-right: 2rem;
 }
 
-.bottomIllustrations {
-    display: flex;
-    flex-direction: column;
+.upper-section-left
+{
+    font-family: 'google-sans-regular';
+    font-size:64px;
+    font-weight: 600;
+    line-height: 100px;
+    letter-spacing: 0.4rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.blue1
+{
+    color:#4180EA;
+}
+
+.blue
+{
+    color:#4285F4;
+}
+
+.red
+{
+    color:#DB4437;
+}
+
+.red1
+{
+    color:#E94100;
+}
+
+.green
+{
+    color:#109756;
+}
+
+.yellow
+{
+    color:#F4B400;
+}
+
+.kerala
+{
+    font-family: 'Poppins','Google-Sans';
+color:#00A154;
+}
+
+.bottom-section
+{
+    position: absolute;
+    left: 277px;
+    top: 593px;
 }
