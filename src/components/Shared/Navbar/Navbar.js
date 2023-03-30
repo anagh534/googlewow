@@ -1,8 +1,8 @@
 import React from 'react'
 import './Navbar.css'
-// import logo from '/svgs/Logo.svg'
-import Custombutton from "../../Shared/Custombutton/Custombutton";
-
+import Custombutton from "../Custombutton/Custombutton";
+import Logo from "../../../svgs/Logo.svg"
+import YellowHamburger from "../../../svgs/yellowHamburger.svg"
 
 import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
@@ -12,8 +12,9 @@ export default function Navbar() {
 
   return (
     <div className="navbar">
-      {/* <a href="/"><h1 className='WoW'>WoW</h1></a> */}
-    <NavLink to='/'><img className='logo' src='/svgs/Logo.svg' alt='WoW Logo'/> </NavLink>
+      <img src={YellowHamburger} alt="illustrations.svg"/>
+      {/* <a href="https://www.linkedin.com/in/pranavprashant/" rel="noreferrer" target="_blank"><img src={YellowHamburger} alt="illustrations.svg"/></a> */}
+    <NavLink to='/'><img className='logo' src={Logo} alt='WoW Logo'/> </NavLink>
       <div>
         <ul className={isMobile ? "nav-links-mobile" : "nav-links"} >
           <li><a href="/">Home</a></li>
@@ -25,7 +26,7 @@ export default function Navbar() {
         </ul>
       </div>
             <div className="btn">
-          <Custombutton buttonName="Register Now" />
+          <Custombutton buttonName="Sign In" />
       </div>
       <button className='mobile-menu-icon'>
         {isMobile ? (<i className="fas fa-times" onClick={() => setIsMobile(false)}></i>) : (<i className="fas fa-bars" onClick={() => setIsMobile(true)}></i>)}
@@ -33,4 +34,3 @@ export default function Navbar() {
     </div>
   )
 }
-

@@ -3,8 +3,7 @@ import "./Custombutton.css";
 function Button(props) {
   return (
     <div className="button">
-      <p style={{ marginRight: "17px" }}>{props.buttonName}</p>
-      <img className="arrow" src="/svgs/arrow.svg" />
+      <p>{props.buttonName}</p>
     </div>
   );
 }
