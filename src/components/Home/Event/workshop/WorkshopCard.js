@@ -1,20 +1,21 @@
 import React from "react"
 import "./workshop-card.css"
-import Arrow from "../../svgs/arrow.svg"
+import Arrow from "../../../../svgs/arrow.svg"
 
 
-function WorkshopCard({photo,color,darkColor}) {
+
+function WorkshopCard({photo,color,darkColor,heading,description}) {
   return (
-    <div style={{display:"flex" ,justifyContent:"center",alignItems:"center",height:"100vh"}} >
+    <div >
         <div className="main-container" style={{backgroundColor:`${color}`}}>
             <div className="white-container">
                 <img className="photo" src={photo} />
                 <div className="cut"></div>
             </div>
             <div className="info-wrapper" style={{color:`${darkColor}`}}>
-                <p className="heading">Metaverse</p>
+                <p className="heading">{heading}</p>
                 <div className="purple-div" style={{backgroundColor:`${darkColor}`}}><p>CHALLENGING</p></div>
-                <p className="description">Unleash competitive spirit by participating in it and unleash your potential</p>
+                <p className="card-description">{description}</p>
                 <div className="line-arrow">
                     <div className="line"></div>
                     <img src={Arrow} />
