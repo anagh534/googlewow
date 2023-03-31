@@ -1,4 +1,7 @@
 .main-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
     width: 290px;
     height: 510px;
     /* background-color: #E0BAFF; */
@@ -7,6 +10,7 @@
 }
 
 .white-container{
+    /* width: 274px; */
     height: 274px;
     background-color: white;
     position: relative;
@@ -43,7 +47,7 @@
     line-height: 31px;
     color: #FFFFFF;
 }
-.description{
+.card-description{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;

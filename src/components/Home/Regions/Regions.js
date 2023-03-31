@@ -23,7 +23,7 @@ export default function Regions() {
         
       </span>
         </div>
-        <Marquee pauseOnHover speed={1} delay={0}>
+        <Marquee pauseOnHover speed={1} delay={0} gradient={false}>
           <img src={HorizontalFloatingBar} alt="illustrations.svg"/>
           <img src={HorizontalFloatingBar} alt="illustrations.svg"/>
           <img src={HorizontalFloatingBar} alt="illustrations.svg"/>
