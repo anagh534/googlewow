@@ -1,9 +1,10 @@
 import "./workshop-card.css"
 
 
+
 function WorkshopCard({photo,color,darkColor}) {
   return (
-    <div style={{display:"flex" ,justifyContent:"center",alignItems:"center",height:"100vh"}} >
+    <div >
         <div className="main-container" style={{backgroundColor:`${color}`}}>
             <div className="white-container">
                 <img className="photo" src={photo} />

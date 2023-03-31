@@ -1,4 +1,7 @@
 .main-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 103px;
     width: 290px;
     height: 510px;
     /* background-color: #E0BAFF; */
@@ -7,6 +10,7 @@
 }
 
 .white-container{
+    /* width: 274px; */
     height: 274px;
     background-color: white;
     position: relative;

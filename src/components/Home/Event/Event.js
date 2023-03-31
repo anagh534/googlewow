@@ -2,7 +2,7 @@ import "./event.css"
 
 function Event() {
   return (
-    <div className='main-container'>
+    <div className='event-container'>
     <div className="vertical-line-wrapper">
       <p>&lt; &gt;</p>
       <div className="vertical-line"></div>

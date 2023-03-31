@@ -1,7 +1,7 @@
 import AboutSection from "../components/Home/About/AboutSection";
 import Event from "../components/Home/Event/Event";
 import HeroSection from "../components/Home/Hero/HeroSection";
-// import WorkshopCard from "../components/Shared/WorkshopCard";
+import WorkshopCard from "../components/Home/Event/workshop/WorkshopCard";
 
 
 
