@@ -22,7 +22,7 @@ export default function HeroSection() {
           <p>Event In Kerala</p>
           </span>
       </span>
-          <p>
+          <p className="google-developer">
           <span className="blue1">G</span>
           <span className="red1">O</span>
           <span className="yellow">O</span>
@@ -31,7 +31,7 @@ export default function HeroSection() {
           <span className="red1">E</span>
           <span className="blue"> DEVELOPER</span>
           </p>
-          <p>
+          <p className="student-clubs">
             <span className="red">STUDENT</span>
             <span className="green"> CLUBS</span>
           </p>
@@ -41,7 +41,7 @@ export default function HeroSection() {
         </span>
         </span>
         <span className="upper-section-right">
-          <img src={Robot} alt="illustrations.svg"/>
+          <img className="robot-image" src={Robot} alt="illustrations.svg"/>
         </span>
         </div>
         <Marquee pauseOnHover speed={1} delay={0} gradient={false}>

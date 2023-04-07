@@ -10,7 +10,7 @@
     /* width: 100vw; */
     justify-content: space-between;
     align-items: center;
-    /* padding: 0.3rem; */
+    padding: 0.6rem;
     background: #FDFAE5;
 }
 
@@ -36,8 +36,7 @@ ul {
     font-family: 'Open Sans', sans-serif;
 }
 
-.logo
-{
+.logo {
     margin-left: 1rem;
 }
 
@@ -61,6 +60,11 @@ ul {
 }
 
 @media screen and (max-width:780px) {
+
+    .yellow-hamburger {
+        display: none;
+    }
+
     .nav-links-mobile {
         position: absolute;
         display: block;
@@ -92,7 +96,7 @@ ul {
     }
 
     .logo {
-        margin-left: 0;
+        margin-left: 2rem;
         width: 6rem;
     }
 
