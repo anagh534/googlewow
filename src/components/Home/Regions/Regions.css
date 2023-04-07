@@ -1,55 +1,54 @@
-.Road
-{
-    position: relative;
-    object-fit: cover;
-    /* right: 240px; */
-    height: 78vh;
-    width:100%;
+.regions-section {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+}
+.upper-section {
+  height: 100%;
+  display: flex;
+}
+.regionswrapper {
+  width: 100%;
+  position: relative;
+  background-image: url(../../../svgs/Road.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* .mainImage
-{
-    display: flex;
-    justify-content: start;
-} */
-
-.Calicut
-{
-    position: absolute;
-    width: 222px;
-    height: 218.4px;
-    left: 226px;
-    top: 1865px;
+.Calicut {
+  position: absolute;
+  position: absolute;
+  right: 50%;
+  top: 50%;
 }
 
-.Trivandrum
-{
-    position: absolute;
-width: 231px;
-height: 166.02px;
-left: 750px;
-top: 1720px;
-
+.Trivandrum {
+  position: absolute;
+  position: absolute;
+  right: 20%;
+  top: 35%;
 }
 
-.Kochi
-{
-    position: absolute;
-width: 114px;
-height: 126.9px;
-left: 1395px;
-top: 1500px;
+.Kochi {
+  position: absolute;
+  right: 10%;
+  top: 10%;
 }
 
-.RegionsText
-{
-    font-family: 'Google Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 61px;
-margin-top: 2rem;
-margin-left: 2rem;
-color: #109756;
+.RegionsText {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 61px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color: #109756;
 }
-
