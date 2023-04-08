@@ -4,7 +4,7 @@ import Robot from "../../../svgs/heroRobot.svg"
 import Tree from "../../../svgs/keralaTree.svg"
 import SymbolG from "../../../svgs/symbolG.svg"
 import LowerSection from "../../../svgs/lowerSection.svg"
-import SideBar from "../../../svgs/sideBar.svg"
+// import SideBar from "../../../svgs/sideBar.svg"
 import HorizontalFloatingBar from "../../../svgs/horizontalFloatingBar.svg"
 import Marquee from "react-fast-marquee";
 import VerticalMarque from "../../Shared/Verticalmarque/VerticalMarque"

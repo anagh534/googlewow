@@ -1,6 +1,6 @@
 import "./workshop-page.css"
 import WorkshopCard from "./WorkshopCard"
-import SideBar from "../../../../svgs/sideBar.svg"
+// import SideBar from "../../../../svgs/sideBar.svg"
 import VerticalMarque from "../../../Shared/Verticalmarque/VerticalMarque"
 
 function WorkshopPage() {

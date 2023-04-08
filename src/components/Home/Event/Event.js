@@ -1,5 +1,5 @@
 import "./event.css"
-import JobFair from "../../../svgs/jobfair.svg"
+// import JobFair from "../../../svgs/jobfair.svg"
 
 
 function Event() {

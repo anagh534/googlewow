@@ -1,4 +1,4 @@
-import SideBar from "../../../../svgs/sideBar.svg"
+// import SideBar from "../../../../svgs/sideBar.svg"
 import hackathonImg from "../../../../svgs/hackathons.svg"
 import "./hackathon.css"
 import VerticalMarque from "../../../Shared/Verticalmarque/VerticalMarque"
@@ -22,7 +22,7 @@ function Hackathon() {
     
       <img 
       className="hackathon-img" 
-      src={hackathonImg}/>
+      src={hackathonImg} alt="illustrations.svg"/>
     
     </div>
    

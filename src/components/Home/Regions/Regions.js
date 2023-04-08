@@ -1,13 +1,13 @@
 import React from "react";
 import "./Regions.css";
 import SideBar from "../../../svgs/sideBar.svg";
-import Road from "../../../svgs/Road.svg";
+// import Road from "../../../svgs/Road.svg";
 import Calicut from "../../../svgs/Calicut.svg";
 import Trivandrum from "../../../svgs/Trivandrum.svg";
 import Kochi from "../../../svgs/Kochi.svg";
 import HorizontalFloatingBar from "../../../svgs/horizontalFloatingBar.svg";
 import Marquee from "react-fast-marquee";
-import VerticalMarque from "../../Shared/Verticalmarque/VerticalMarque"
+//import VerticalMarque from "../../Shared/Verticalmarque/VerticalMarque"
 export default function Regions() {
   return (
     <div className="regions-section">
