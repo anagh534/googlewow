@@ -1,6 +1,115 @@
-.event-container{
-    margin-top: 36px;
+.hack-img-wrapper{
+    display:flex;
+   justify-content:center;
+   width:100%;
+   align-items:center;
+   margin-top: 100px;
+   margin-bottom: 30px;
 }
-.hackathon-img{
-    margin:110px 70px 0;
+.hackathon-heading{
+    font-family:Open Sans;
+    font-style:normal;
+    font-weight:700;
+    font-size:48px;
+    line-height:61px;
+    color:#109756;
+    margin-top:48px;
+    margin-left:142px;
+    position: relative;
+}
+.hackathon-heading::after{
+    background-image: url("../../../../svgs/eventGlow.svg");
+    content: "";
+    position: absolute;
+    left:-55px ;
+    width: 91px;
+height: 91px;
+    display: inline-block;
+    /* top: 30px; */
+    bottom: 15px;
+    z-index: -1;
+}
+
+@media (max-width:1331px){
+    .hackathon-img{
+        width: 1000px;
+    }
+}
+@media (max-width:1190px){
+    .hackathon-img{
+        width: 900px;
+    }
+}
+@media (max-width:1075px){
+    .hackathon-img{
+        width: 800px;
+    }
+}
+@media (max-width:984px){
+    .hackathon-img{
+        width: 700px;
+    }
+}
+@media (max-width:872px){
+    .hackathon-img{
+        width: 600px;
+    }
+}
+@media (max-width:763px){
+    .hackathon-img{
+        width: 500px;
+    }
+}
+@media (max-width:660px){
+    .hackathon-img{
+        width: 400px;
+    }
+}
+@media(max-width:608px){
+    .hackathon-heading{
+        margin-left: 50px;
+        font-size: 24px;
+line-height: 33px;
+    }
+    .hackathon-heading::after{
+        background-image: url(../../../../svgs/smalleventglow.svg);
+        width: 45px;
+        height: 45px;
+        /* bottom: 45px; */
+        left: -28px;
+        bottom: 8px;
+        /* z-index: 1; */
+    }
+}
+@media (max-width:486px){
+    .hackathon-img{
+        width: 327.1px;
+    }
+    .hack-img-wrapper{
+       margin-top: 70px;
+   margin-bottom: 15px;
+
+    }
+}
+/* @media (max-width:1322px){
+    .hackathon-img{
+        width: 60rem;
+    }
+} */
+/* .hackathonImg{
+    display: flex;
+    margin-top: 200px;
+    background-image: url("../../../../svgs/hackathons.svg");
+    width: 100%;
+    height: 100%;
+} */
+@media (max-width:398px){
+    .hackathon-img{
+        width: 300px;
+    }
+}
+@media (max-width:370px){
+    .hackathon-img{
+        width: 250px;
+    }
 }

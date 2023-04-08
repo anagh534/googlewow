@@ -7,6 +7,7 @@ import WorkshopCard from "../components/Home/Event/workshop/WorkshopCard";
 import WorkshopPage from "../components/Home/Event/workshop/WorkshopPage";
 import Hackathon from "../components/Home/Event/hackathon/Hackathon";
 import JobStartup from "../components/Home/Event/job&startup/JobStartup";
+import VerticalMarque from "../components/Shared/Verticalmarque/VerticalMarque";
 
 
 
@@ -14,14 +15,15 @@ import JobStartup from "../components/Home/Event/job&startup/JobStartup";
 const Home = () => {
   return (
     <div className="homewrapper">
-      <Navbar />
-      <HeroSection />
-      <AboutSection />
-      <hr />
-      <Regions />
+      {/* <Navbar /> */}
+      {/* <HeroSection /> */}
+      {/* <AboutSection /> */}
+      {/* <hr /> */}
+      {/* <Regions /> */}
       <Hackathon/>
       <WorkshopPage/>
       <JobStartup/>
+      {/* <VerticalMarque/> */}
       {/* <Event/> */}
     </div>
   );

@@ -5,6 +5,7 @@ import JobFair from "../../../svgs/jobfair.svg"
 function Event() {
   return (
     <div className='event-container'>
+    
     <div className="vertical-line-wrapper">
       <p>&lt; &gt;</p>
       <div className="vertical-line"></div>
