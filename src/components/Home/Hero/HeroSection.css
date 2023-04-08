@@ -4,8 +4,8 @@
     font-family: google-sans-regular;
     src: url('../../../fonts/GoogleSans-Regular-v1.27.ttf');
 }
-.upper-upper-section
-{
+
+.upper-upper-section {
     display: flex;
     font-size: 16px;
     margin-bottom: 1rem;
@@ -14,28 +14,24 @@
     letter-spacing: 0.1rem;
 }
 
-.textG
-{
+.textG {
     margin-left: 1rem;
     line-height: 1.2;
 }
 
-.upper-section
-{
+.upper-section {
     display: flex;
     justify-content: space-between;
 }
 
-.upper-section-right
-{
+.upper-section-right {
     margin-top: 3rem;
     margin-right: 2rem;
 }
 
-.upper-section-left
-{
+.upper-section-left {
     font-family: 'google-sans-regular';
-    font-size:64px;
+    font-size: 64px;
     font-weight: 600;
     line-height: 100px;
     letter-spacing: 0.4rem;
@@ -43,45 +39,151 @@
     margin-top: 5rem;
 }
 
-.blue1
-{
-    color:#4180EA;
+.blue1 {
+    color: #4180EA;
 }
 
-.blue
-{
-    color:#4285F4;
+.blue {
+    color: #4285F4;
 }
 
-.red
-{
-    color:#DB4437;
+.red {
+    color: #DB4437;
 }
 
-.red1
-{
-    color:#E94100;
+.red1 {
+    color: #E94100;
 }
 
-.green
-{
-    color:#109756;
+.green {
+    color: #109756;
 }
 
-.yellow
-{
-    color:#F4B400;
+.yellow {
+    color: #F4B400;
 }
 
-.kerala
-{
-    font-family: 'Poppins','Google-Sans';
-color:#00A154;
+.kerala {
+    font-family: 'Poppins', 'Google-Sans';
+    color: #00A154;
 }
 
-.bottom-section
-{
+.bottom-section {
     position: absolute;
-    left: 277px;
-    top: 593px;
+    width: 444px;
+    height: 151px;
+    left: 977px;
+    top: 598px;
+}
+
+@media screen and (max-width:1840px) {
+    .bottom-section {
+        display: flex;
+        position: absolute;
+        width: 444px;
+        height: 151px;
+        left: 477px;
+        top: 590px;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .sideBar {
+        display: none;
+    }
+
+    .bottom-section {
+        display: none;
+    }
+}
+
+@media screen and (max-width:780px) {
+
+    .sideBar {
+        display: none;
+    }
+
+    .upper-upper-section {
+        display: none;
+    }
+
+    .bottom-section {
+        display: none;
+        top: 32rem;
+        left: 1.8rem;
+        /* width: 50.56px; */
+        /* height: 33.66px; */
+    }
+
+    .google-developer {
+        font-size: 42px;
+        line-height: 65px;
+        letter-spacing: 0.05em;
+    }
+
+    .student-clubs {
+        font-size: 40px;
+        line-height: 65px;
+        letter-spacing: 0.05em;
+    }
+
+    .kerala {
+        font-size: 32px;
+        line-height: 45px;
+        letter-spacing: 0.05em;
+    }
+
+    .robot-image {
+        margin-top: 200px;
+        width: 304.56px;
+        height: 333.66px;
+    }
+
+    .upper-section-left {
+        margin-top: 3rem;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+
+    .sideBar {
+        display: none;
+    }
+
+    .upper-upper-section {
+        display: none;
+    }
+
+    .bottom-section {
+        display: none;
+    }
+
+    .google-developer {
+        font-size: 32px;
+        line-height: 45px;
+        letter-spacing: 0.05em;
+    }
+
+    .student-clubs {
+        font-size: 32px;
+        line-height: 45px;
+        letter-spacing: 0.05em;
+    }
+
+    .kerala {
+        font-size: 32px;
+        line-height: 45px;
+        letter-spacing: 0.05em;
+    }
+
+    .robot-image {
+        margin-top: 200px;
+        width: 200px;
+        height: 220px;
+    }
+
+    .upper-section-left {
+        margin-top: 3rem;
+    }
 }

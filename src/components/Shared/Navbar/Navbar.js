@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <div className="navbar">
-      <img src={YellowHamburger} alt="illustrations.svg"/>
+      <img className="yellow-hamburger" src={YellowHamburger} alt="illustrations.svg"/>
       {/* <a href="https://www.linkedin.com/in/pranavprashant/" rel="noreferrer" target="_blank"><img src={YellowHamburger} alt="illustrations.svg"/></a> */}
     <NavLink to='/'><img className='logo' src={Logo} alt='WoW Logo'/> </NavLink>
       <div>
