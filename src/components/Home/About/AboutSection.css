@@ -78,17 +78,16 @@
     color: #4180EA;
 }
 
-.right-down p span{
+.right-down p span {
     color: #D24336;
 }
 
-.left-bottom img{
+.left-bottom img {
     object-fit: scale-down;
     margin-top: 10vh;
 }
 
-.aboutUsText
-{
+.aboutUsText {
     margin-left: 20px;
     margin-top: 20px;
     color: #109756;
@@ -96,7 +95,130 @@
     font-size: 48px;
 }
 
-.left-section
-{
+.left-section {
     margin-top: 80px;
+}
+
+@media screen and (max-width:769px) {
+    .aboutUsText p {
+        font-size: 32px;
+    }
+
+    .left-section {
+        margin-top: -28px;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .left-top img {
+        width: 48px;
+        height: 48px;
+        margin-left: 2px;
+        margin-top: 90px;
+    }
+
+    .left-top p {
+        font-size: 16px;
+    }
+
+    .left-bottom img {
+        width: 264px;
+        height: 185px;
+        margin-top: 0;
+        margin-left: 8rem;
+    }
+
+    .right-section {
+        margin-top: 0;
+    }
+
+    .right-top img:nth-child(1) {
+        margin-left: 8rem;
+        width: 265px;
+        height: 185px;
+    }
+
+    .right-top img:nth-child(2) {
+        width: 165px;
+        height: 25px;
+        margin-top: -48px;
+        margin-left: 11.5rem;
+    }
+
+    .right-down {
+        margin: 1vh;
+    }
+
+    .right-down h2 {
+        font-size: 18px;
+    }
+
+    .right-down p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .aboutUsText p {
+        font-size: 32px;
+    }
+
+    .left-section {
+        margin-top: -28px;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .left-top img {
+        width: 48px;
+        height: 48px;
+        margin-left: 2px;
+        margin-top: 90px;
+    }
+
+    .left-top p {
+        font-size: 10px;
+    }
+
+    .left-bottom img {
+        width: 264px;
+        height: 185px;
+        margin-top: 0;
+        margin-left: 2rem;
+    }
+
+    .right-section {
+        margin-top: 0;
+    }
+
+    .right-top img:nth-child(1) {
+        margin-left: 3rem;
+        width: 265px;
+        height: 185px;
+    }
+
+    .right-top img:nth-child(2) {
+        width: 165px;
+        height: 25px;
+        margin-top: -48px;
+        margin-left: 6rem;
+    }
+
+    .right-down {
+        margin: 1vh;
+    }
+
+    .right-down h2 {
+        font-size: 16px;
+    }
+
+    .right-down p {
+        font-size: 10px;
+        line-height: 18px;
+    }
 }
