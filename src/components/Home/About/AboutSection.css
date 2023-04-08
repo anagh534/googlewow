@@ -148,7 +148,7 @@
     }
 
     .right-down {
-        margin: 1vh;
+        margin: 2vh;
     }
 
     .right-down h2 {
@@ -158,6 +158,7 @@
     .right-down p {
         font-size: 16px;
         line-height: 20px;
+        padding-bottom: 20px;
     }
 }
 
@@ -210,7 +211,7 @@
     }
 
     .right-down {
-        margin: 1vh;
+        margin: 2vh;
     }
 
     .right-down h2 {
