@@ -35,7 +35,7 @@
     font-weight: 600;
     line-height: 100px;
     letter-spacing: 0.4rem;
-    margin-left: 5rem;
+    margin-left: 2rem;
     margin-top: 5rem;
 }
 
@@ -72,8 +72,8 @@
     position: absolute;
     width: 444px;
     height: 151px;
-    left: 977px;
-    top: 598px;
+    left: 967px;
+    top: 534px;
 }
 
 @media screen and (max-width:1840px) {

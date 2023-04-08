@@ -7,6 +7,7 @@ import Trivandrum from "../../../svgs/Trivandrum.svg";
 import Kochi from "../../../svgs/Kochi.svg";
 import HorizontalFloatingBar from "../../../svgs/horizontalFloatingBar.svg";
 import Marquee from "react-fast-marquee";
+import VerticalMarque from "../../Shared/Verticalmarque/VerticalMarque"
 export default function Regions() {
   return (
     <div className="regions-section">
@@ -21,6 +22,7 @@ export default function Regions() {
               <img src={SideBar} alt="illustrations.svg" />
             </a>
           </span>
+          {/* <VerticalMarque /> */}
         </div>
         <div className="regionswrapper">
           <p className="RegionsText">Regions</p>

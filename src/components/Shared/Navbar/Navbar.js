@@ -2,7 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import Custombutton from "../Custombutton/Custombutton";
 import Logo from "../../../svgs/Logo.svg"
-import YellowHamburger from "../../../svgs/yellowHamburger.svg"
+// import YellowHamburger from "../../../svgs/yellowHamburger.svg"
 
 import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <div className="navbar">
-      <img className="yellow-hamburger" src={YellowHamburger} alt="illustrations.svg"/>
+      {/*<img className="yellow-hamburger" src={YellowHamburger} alt="illustrations.svg"/>*/}
       {/* <a href="https://www.linkedin.com/in/pranavprashant/" rel="noreferrer" target="_blank"><img src={YellowHamburger} alt="illustrations.svg"/></a> */}
     <NavLink to='/'><img className='logo' src={Logo} alt='WoW Logo'/> </NavLink>
       <div>

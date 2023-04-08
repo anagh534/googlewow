@@ -7,13 +7,15 @@ import LowerSection from "../../../svgs/lowerSection.svg"
 import SideBar from "../../../svgs/sideBar.svg"
 import HorizontalFloatingBar from "../../../svgs/horizontalFloatingBar.svg"
 import Marquee from "react-fast-marquee";
+import VerticalMarque from "../../Shared/Verticalmarque/VerticalMarque"
 export default function HeroSection() {
   return (
     <div className="hero-section">
       <div className="upper-section">
-      <span className="sideBar">
+      {/* <span className="sideBar">
       <a href="https://www.youtube.com/@Google" rel="noreferrer" target="_blank"><img src={SideBar} alt="illustrations.svg"/></a>
-      </span>
+      </span> */}
+      <VerticalMarque />
         <span className="upper-section-left">
         <span className="upper-upper-section">
         <img className="symbolG" src={SymbolG} alt="illustrations.svg"/>
