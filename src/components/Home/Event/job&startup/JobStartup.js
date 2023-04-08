@@ -1,5 +1,5 @@
 import JobFair from "../../../../svgs/jobfair.svg"
-import SideBar from "../../../../svgs/sideBar.svg"
+// import SideBar from "../../../../svgs/sideBar.svg"
 import Startup from "../../../../svgs/startup.svg"
 import VerticalMarque from "../../../Shared/Verticalmarque/VerticalMarque"
 import "./JobStartup.css"
@@ -20,7 +20,7 @@ function JobStartup() {
     <div className="job-wrapper" >
         <p className="description">Lorem ipsum dolor sit amet consectetur. Hendrerit semper fames vulputate euismod erat. Malesuada in vel ac dignissim aliquam.
 Lorem ipsum dolor sit amet consectetur. Hendrerit semper fames vulputate euismod erat. Malesuada in vel ac dignissim aliquam.</p>
-<img className="job-img" src={JobFair}/>
+<img className="job-img" src={JobFair} alt="illustrations.svg"/>
     </div>
     </div>
 
@@ -41,7 +41,7 @@ Lorem ipsum dolor sit amet consectetur. Hendrerit semper fames vulputate euismod
     <div className="job-wrapper">
         <p className="description" >Lorem ipsum dolor sit amet consectetur. Hendrerit semper fames vulputate euismod erat. Malesuada in vel ac dignissim aliquam.
 Lorem ipsum dolor sit amet consectetur. Hendrerit semper fames vulputate euismod erat. Malesuada in vel ac dignissim aliquam.</p>
-<img className="job-img"  src={Startup}/>
+<img className="job-img"  src={Startup} alt="illustrations.svg"/>
     </div>
     </div>
 

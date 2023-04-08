@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutSection.css";
-import SideBar from "../../../svgs/sideBar.svg"
+// import SideBar from "../../../svgs/sideBar.svg"
 import VerticalMarque from "../../Shared/Verticalmarque/VerticalMarque"
 
 export default function AboutSection() {
