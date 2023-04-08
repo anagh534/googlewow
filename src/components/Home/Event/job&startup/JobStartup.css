@@ -1,0 +1,73 @@
+.job-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 30px;
+    /* margin-top: 40px; */
+    /* margin-bottom: 30px; */
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+    gap: 31px;
+    align-self: center;
+
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+letter-spacing: 0.03em;
+
+color: #000000;
+}
+.job-img{
+    /* margin-top: 120px;
+    margin-bottom: 30px; */
+width: 600px;
+}
+@media (max-width:1077px) {
+    .job-img{
+        width:500px;
+    }
+    
+}
+@media (max-width:966px) {
+    .job-wrapper{
+        flex-direction: column;
+    }
+    
+}
+@media (max-width:680px) {
+    .job-img{
+        width:400px; 
+    }
+    
+}
+@media (max-width:604px){
+    .description{
+        font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.03em;
+    }
+}
+@media (max-width:485px) {
+    .job-img{
+        width:300px; 
+    }
+    
+}
+@media (max-width:372px) {
+    .job-img{
+        width: 250px; 
+    }
+    
+}

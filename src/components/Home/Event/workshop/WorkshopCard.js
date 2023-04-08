@@ -18,7 +18,7 @@ function WorkshopCard({photo,color,darkColor,heading,description}) {
                 <p className="card-description">{description}</p>
                 <div className="line-arrow">
                     <div className="line"></div>
-                    <img src={Arrow} />
+                    <img  src={Arrow} />
                 </div>
             </div>
             

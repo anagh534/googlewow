@@ -1,7 +1,7 @@
 .main-container{
     display: flex;
     flex-direction: column;
-    margin-top: 170px;
+    margin-top: 50px;
     width: 290px;
     height: 510px;
     /* background-color: #E0BAFF; */
@@ -73,4 +73,32 @@
     width: 2px;
     height: 20px;
     transform: rotate(130deg);
+}
+@media (max-width:608px){
+    .main-container{
+        width: 257px;
+        height: 451.97px;
+    }
+    .photo{
+        width: 249.96px;
+height: 292.45px;
+    }
+    .card-description{
+        font-size: 14.1793px;
+line-height: 19px;
+    }
+    .heading{
+        font-size: 28.3586px;
+line-height: 39px;
+    }
+    .purple-div p{
+        font-size: 21.269px;
+line-height: 29px;
+    }
+    .info-wrapper{
+        margin: 8px 25px 0;
+    }
+    .line-arrow img{
+        width: 24px;
+    }
 }
