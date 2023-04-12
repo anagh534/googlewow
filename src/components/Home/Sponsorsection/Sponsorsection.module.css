@@ -1,0 +1,32 @@
+.sponsorsectionWrapper {
+  display: flex;
+  min-height: 400px;
+}
+.sponsorsectionContentWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.sponsorsectionContentWrapper > h2 {
+  text-decoration: underline;
+  text-decoration-color: #ffb700;
+  text-decoration-style: dashed;
+  color: #109756;
+  font-size: 3vw;
+  padding: 10px 20px 10px 20px;
+}
+.sponsorcardsWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  place-items: center;
+  height: 100%;
+}
+.sponsorcardWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sponsorcardWrapper > img {
+  width: 80%;
+  min-width: 200px;
+}

@@ -8,6 +8,7 @@ import WorkshopPage from "../components/Home/Event/workshop/WorkshopPage";
 import Hackathon from "../components/Home/Event/hackathon/Hackathon";
 import JobStartup from "../components/Home/Event/job&startup/JobStartup";
 import Footer from "../components/Footer/Footer";
+import Sponsorsection from "../components/Home/Sponsorsection/Sponsorsection";
 
 const Home = () => {
   return (
@@ -20,7 +21,7 @@ const Home = () => {
       <Hackathon />
       <WorkshopPage />
       <JobStartup />
-      {/* <Event/> */}
+      <Sponsorsection />
       <Footer />
     </div>
   );
